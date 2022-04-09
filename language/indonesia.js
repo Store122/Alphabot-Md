@@ -2,17 +2,17 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar~`
+    return `🪀 Mohon tunggu sebentar~`
 }
 exports.ok = () => {
-    return `✅ Done. Ok desu~`
+    return `🌹 Done. Ok desu~`
 }
 
 exports.err = () => {
-    return `⚠️ Fitur Sedang Error`
+    return `🎭 Fitur Sedang Error`
 }
 exports.erorLink = () => {
-    return `⚠️ Link nya error`
+    return `🎭 Link nya error`
 }
 exports.media = () => {
     return `Silahkan pilih media yang ingin kamu download`
@@ -38,7 +38,7 @@ exports.ownerOnly = () => {
 }
 
 exports.doneOwner = () => {
-    return `✅  ️Sudah selesai, Owner ~`
+    return `🌹  ️Sudah selesai, Owner ~`
 }
 
 exports.groupOnly = () => {
@@ -46,7 +46,7 @@ exports.groupOnly = () => {
 }
 
 exports.adminOnly = () => {
-    return `🙅  Command ini hanya bisa digunakan oleh admin grup!`
+    return `🪀  Command ini hanya bisa digunakan oleh admin grup!`
 }
 
 exports.nhFalse = () => {
@@ -85,10 +85,10 @@ exports.notNum = (q) => {
     return `"${q}", bukan angka!`
 }
 exports.menunya = (salam, pushname, botname) =>{
-	return`Hai kak ${pushname} 👋 selamat ${salam} , 
+	return`Hai kak ${pushname} 🌹 selamat ${salam} , 
 saya ${botname}, bot ini adalah Beta Multi-Device Whatsapp. 
 Jika kamu menemukan semacam bug atau kesalahan mohon dimaklumi dulu ya, 
-lapor owner agar segera di perbaiki 🙏      
+lapor owner agar segera di perbaiki 🪀      
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
